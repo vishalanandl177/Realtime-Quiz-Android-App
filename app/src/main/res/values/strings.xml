@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz Up</string>
+    <string name="welcome_msg">Welcome!</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="invitation_message">Please join me for a QuizUp</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">QuizUp Invite</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="difficult_road">Difficult roads often lead to beautiful destination</string>
+    <string name="the_best">The best preparation for tomorrow is doing your best today</string>
+    <string name="impossible_until">It always seems impossible until its done</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="settings">Settings</string>
+    <string name="profile_menu">Profile</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="onlineusers">Online Users</string>
+    <string name="skip">Skip</string>
+    <string name="loading_questions_nplease_wait">Loading Questions\nPlease wait</string>
+    <string name="title_activity_topics">TopicsActivity</string>
+    <string name="selecttopics">Select Topics</string>
+    <string name="start">Start</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="100"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.google.firebase.codelab.friendlychat.QuizActivity"
+    tools:showIn="@layout/activity_quiz">
+
+    <EditText
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:editable="false"
+        android:gravity="center"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="@string/loading_questions_nplease_wait"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text=""
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text=""
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text=""
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text=""
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
